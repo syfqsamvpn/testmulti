@@ -1,14 +1,14 @@
 #!/bin/bash
 MYIP=$(wget -qO- ipinfo.io/ip);
 
-colornow=$(cat /etc/alexxa/theme/color.conf)
+colornow=$(cat /etc/samvpn/theme/color.conf)
 NC="\e[0m"
-COLOR1="$(cat /etc/alexxa/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
-COLBG1="$(cat /etc/alexxa/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"
+COLOR1="$(cat /etc/samvpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
+COLBG1="$(cat /etc/samvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"
 
-APIGIT=$(cat /etc/alexxa/github/api)
-EMAILGIT=$(cat /etc/alexxa/github/email)
-USERGIT=$(cat /etc/alexxa/github/username)
+APIGIT=$(cat /etc/samvpn/github/api)
+EMAILGIT=$(cat /etc/samvpn/github/email)
+USERGIT=$(cat /etc/samvpn/github/username)
 
 export RED='\033[0;31m';
 export GREEN='\033[0;32m';
@@ -29,7 +29,7 @@ echo -e "$COLOR1 ${NC}"
 echo -e "$COLOR1 ${NC}  ${ERROR} DNS Cannot Be Empty";
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                • 𝕊𝔸ℕ𝔻𝔸𝕂𝔸ℕ 𝕍ℙℕ •                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                     • SAMVPN •                     $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -46,7 +46,7 @@ echo -e "$COLOR1 ${NC}  ${INFO} DNS Update Successfully";
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                • 𝕊𝔸ℕ𝔻𝔸𝕂𝔸ℕ 𝕍ℙℕ •                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                     • SAMVPN •                     $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -78,7 +78,7 @@ echo -e "$COLOR1 ${NC}   $INFO Operation Cancelled By User"
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                • 𝕊𝔸ℕ𝔻𝔸𝕂𝔸ℕ 𝕍ℙℕ •                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                     • SAMVPN •                     $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -104,7 +104,7 @@ echo -e "$COLOR1 ${NC}"
 echo -e "$COLOR1 ${NC}  $COLOR1 [00]$NC • GO BACK"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                • 𝕊𝔸ℕ𝔻𝔸𝕂𝔸ℕ 𝕍ℙℕ •                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                     • SAMVPN •                     $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -p " Select menu :  "  opt

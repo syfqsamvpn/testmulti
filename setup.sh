@@ -128,10 +128,10 @@ exit 0
 fi
 sleep 3
 
-mkdir -p /etc/alexxa
-mkdir -p /etc/alexxa/theme
-mkdir -p /var/lib/alexxa-pro >/dev/null 2>&1
-echo "IP=" >> /var/lib/alexxa-pro/ipvps.conf
+mkdir -p /etc/samvpn
+mkdir -p /etc/samvpn/theme
+mkdir -p /var/lib/samvpn-pro >/dev/null 2>&1
+echo "IP=" >> /var/lib/samvpn-pro/ipvps.conf
 
 if [ -f "/etc/xray/domain" ]; then
 echo ""
@@ -159,40 +159,40 @@ echo "$pp" > /root/domain
 echo "$pp" > /root/scdomain
 echo "$pp" > /etc/xray/domain
 echo "$pp" > /etc/xray/scdomain
-echo "IP=$pp" > /var/lib/alexxa-pro/ipvps.conf
+echo "IP=$pp" > /var/lib/samvpn-pro/ipvps.conf
 
 #THEME RED
-cat >/etc/alexxa/theme/red <<EOF
+cat >/etc/samvpn/theme/red <<EOF
 BG : \E[40;1;41m
 TEXT : \033[0;31m
 EOF
 #THEME BLUE
-cat >/etc/alexxa/theme/blue <<EOF
+cat >/etc/samvpn/theme/blue <<EOF
 BG : \E[40;1;44m
 TEXT : \033[0;34m
 EOF
 #THEME GREEN
-cat >/etc/alexxa/theme/green <<EOF
+cat >/etc/samvpn/theme/green <<EOF
 BG : \E[40;1;42m
 TEXT : \033[0;32m
 EOF
 #THEME YELLOW
-cat >/etc/alexxa/theme/yellow <<EOF
+cat >/etc/samvpn/theme/yellow <<EOF
 BG : \E[40;1;43m
 TEXT : \033[0;33m
 EOF
 #THEME MAGENTA
-cat >/etc/alexxa/theme/magenta <<EOF
+cat >/etc/samvpn/theme/magenta <<EOF
 BG : \E[40;1;43m
 TEXT : \033[0;33m
 EOF
 #THEME CYAN
-cat >/etc/alexxa/theme/cyan <<EOF
+cat >/etc/samvpn/theme/cyan <<EOF
 BG : \E[40;1;46m
 TEXT : \033[0;36m
 EOF
 #THEME CONFIG
-cat >/etc/alexxa/theme/color.conf <<EOF
+cat >/etc/samvpn/theme/color.conf <<EOF
 blue
 EOF
     
