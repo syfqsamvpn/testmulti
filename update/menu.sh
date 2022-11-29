@@ -240,7 +240,7 @@ read opt
 case $opt in
 01 | 1)
     clear
-    menu-ssh
+    ssh-menu
     ;;
 02 | 2)
     clear
