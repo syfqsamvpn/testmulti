@@ -257,15 +257,10 @@ echo "===========================-[ SAMVPN ]-==========================="
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - SSH Websocket           : 2082 [OFF]" | tee -a log-install.txt
-echo "   - SSH SSL Websocket       : 222" | tee -a log-install.txt
-echo "   - OHP SSH                 : 6967" | tee -a log-install.txt
-echo "   - OHP DBear               : 6968" | tee -a log-install.txt
-echo "   - OHP OpenVPN             : 6969" | tee -a log-install.txt
-echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
+echo "   - SSH Websocket           : 80 [ON]" | tee -a log-install.txt
+echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
 echo "   - Stunnel4                : 447, 777" | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
-echo "   - Squid Proxy             : 3128, 8080" | tee -a log-install.txt
 echo "   - Badvpn                  : 7100-7900" | tee -a log-install.txt
 echo "   - Nginx                   : 81" | tee -a log-install.txt
 echo "   - XRAY  Vmess TLS         : 443" | tee -a log-install.txt

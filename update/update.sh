@@ -10,6 +10,7 @@ wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/syfqsamvpn/tes
 wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-vless.sh" && chmod +x /usr/bin/menu-vless
 wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-trojan.sh" && chmod +x /usr/bin/menu-trojan
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-bot.sh" && chmod +x /usr/bin/menu-bot
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-set.sh" && chmod +x /usr/bin/menu-set
 wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-theme.sh" && chmod +x /usr/bin/menu-theme
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/syfqsamvpn/testmulti/main/update/menu-backup.sh" && chmod +x /usr/bin/menu-backup
